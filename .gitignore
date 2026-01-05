@@ -5,6 +5,8 @@ node_modules/
 /.pnp
 .pnp.js
 
+dist/
+
 # Testing
 coverage/
 .nyc_output/
@@ -75,3 +77,4 @@ storybook-static/
 
 # TypeScript
 *.tsbuildinfo
+
