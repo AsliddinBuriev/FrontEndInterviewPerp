@@ -1,17 +1,4 @@
-/**
- *
- * Constructor Functions: Functions used with 'new' keyword to create objects
- * Prototype: Mechanism where objects inherit properties and methods from other objects
- *
- * THE 'new' KEYWORD DOES 4 THINGS:
- * 1. Creates empty object: {}
- * 2. Sets 'this' to that object
- * 3. Links object's __proto__ to Constructor.prototype
- * 4. Returns the object
- *
- * PROTOTYPE CHAIN:
- * admin → Admin.prototype → User.prototype → Object.prototype → null
- */
+// admin → Admin.prototype → User.prototype → Object.prototype → null
 
 function User(email) {
 	this.email = email
